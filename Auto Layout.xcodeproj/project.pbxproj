@@ -12,6 +12,8 @@
 		F66068D1227A85E00094995C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66068CF227A85E00094995C /* Main.storyboard */; };
 		F66068D3227A85E10094995C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F66068D2227A85E10094995C /* Assets.xcassets */; };
 		F66068D6227A85E10094995C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F66068D4227A85E10094995C /* LaunchScreen.storyboard */; };
+		F66068DF227A87810094995C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66068DD227A87810094995C /* CustomTextField.swift */; };
+		F66068E0227A87810094995C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66068DE227A87810094995C /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F66068D2227A85E10094995C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F66068D5227A85E10094995C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F66068D7227A85E10094995C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F66068DD227A87810094995C /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTextField.swift; path = ../../../../../Users/nathanhedgeman/Downloads/Archive/CustomTextField.swift; sourceTree = "<group>"; };
+		F66068DE227A87810094995C /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BackgroundView.swift; path = ../../../../../Users/nathanhedgeman/Downloads/Archive/BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				F66068CB227A85E00094995C /* AppDelegate.swift */,
 				F66068CD227A85E00094995C /* ViewController.swift */,
+				F66068DE227A87810094995C /* BackgroundView.swift */,
+				F66068DD227A87810094995C /* CustomTextField.swift */,
 				F66068CF227A85E00094995C /* Main.storyboard */,
 				F66068D2227A85E10094995C /* Assets.xcassets */,
 				F66068D4227A85E10094995C /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			files = (
 				F66068CE227A85E00094995C /* ViewController.swift in Sources */,
 				F66068CC227A85E00094995C /* AppDelegate.swift in Sources */,
+				F66068E0227A87810094995C /* BackgroundView.swift in Sources */,
+				F66068DF227A87810094995C /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
